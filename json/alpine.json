@@ -24,6 +24,17 @@
                 "os": "alpine",
                 "version": "3.21"
             }
+        },
+        {
+            "type": "alpine",
+            "script": "ct/alpine.sh",
+            "resources": {
+                "cpu": 1,
+                "ram": 512,
+                "hdd": 0.1,
+                "os": "alpine",
+                "version": "3.21"
+            }
         }
     ],
     "default_credentials": {
